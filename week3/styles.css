@@ -11,3 +11,18 @@ p {
   font-family: calibri;
   font-size: 20px;
 }
+
+}
+.random{
+  background-color: tomato;
+  color: white;
+  border: 2px solid yellow;
+  margin: 5px;
+  padding: 10px;
+}
+#myHeader {
+  background-color: lightblue;
+  color: black;
+  padding: 40px;
+  text-align: center;
+} 
