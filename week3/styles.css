@@ -3,15 +3,20 @@
 	font-size: 30px;
 }
 
-body {
-  background-image: url('https://linkshortner.net/KbjNd');
+.body {
+  background-image: url('https://linkshortner.net/tnkzy');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
-
-#hw {
-	margin-left:40px;
+/* I don't know what to do anymore*/
+.hw {
+    width: 450px;
+    background: rgba(50, 0, 0, 0.9);
+    border-radius: 10%;
+    padding: 40px;
+    color: white;
+	margin-left: 95px;
 	
 	
 }
