@@ -1,4 +1,4 @@
-header {
+.header {
 	text-align: center;
 	background:hsla(320, 78%, 80%, 0.8);  /*(234, 55, 126, 0.6);*/
     padding: 30px;
@@ -7,8 +7,8 @@ header {
 
 .intropic{
 	/*width: 300px;
-    height: 300px;
-	border-radius: 20%;*/
+    height: 300px;*/
+	border-radius: 20%;
 	display: block;
     margin-left: auto;
     margin-right: auto;
@@ -71,4 +71,20 @@ p {
   color: black;
   padding: 40px;
   text-align: center;
+  border-style: dotted solid;
+  border-color:steelblue;
 } 
+
+.lower{
+	text-align:center;
+}
+
+
+.footer {
+	text-align: center;
+	border-style: solid;
+    border-color: white;
+	background-color: teal;
+	border-width: 3px; 
+	padding: 5px
+}
