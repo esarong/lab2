@@ -6,9 +6,13 @@ header {
 }
 
 .intropic{
-	width: 300px;
+	/*width: 300px;
     height: 300px;
-	border-radius: 20%;
+	border-radius: 20%;*/
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
     
 }
 
@@ -16,8 +20,7 @@ header {
 	text-align: center;
 	font-size: 25px;
 	width: auto;
-    background:rgba(120, 255, 192, 0.8);
-    border-radius: 50%;
+    background:#00FF7F99;
     padding: 50px;
     color: black;
     text-align:center;
@@ -38,8 +41,8 @@ body {
     border-radius: 5%;
     padding: 30px;
     color: black;
-	margin-left: 150px;
-	margin-right:150px;
+	margin-left: 250px;
+	margin-right:250px;
     text-align:center;
 	line-height: 2;
     letter-spacing: 3px;
