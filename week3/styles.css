@@ -4,6 +4,9 @@
     padding: 30px;
     letter-spacing: 3px;
 	box-sizing: border-box;
+	outline-style: outset;
+	outline-color: hsla(320, 78%, 80%, 0.8);
+	outline-width: thick;
 }
 
 .intropic{
@@ -17,6 +20,7 @@
     width: 50%;
 	max-width: 20%;
 	box-sizing: border-box;
+	
 	 
     
 }
@@ -32,6 +36,9 @@
     line-height: 5px;
 	letter-spacing: 5px;
 	box-sizing: border-box;
+	outline-style: outset;
+	outline-color: hsla(320, 78%, 80%, 0.8);
+	outline-width: thick;
 }
 
 body {
@@ -53,17 +60,22 @@ body {
 	line-height: 2;
     letter-spacing: 3px;
 	box-sizing: border-box;
+	outline: #4CAF50 solid 10px;
+	outline-offset: 15px;
+}
 	
 #bob  { 
     text-align: center;
 	margin: 30px;
-	width: auto;
+	max-width: auto;
     background:#00FF7F99;
     padding: 50px;
     color: black;
     text-align:center;
 	letter-spacing: 5px;
 	box-sizing: border-box;
+	border:dotted;
+	outline: #4CAF50 solid 10px;
 	
 }
 	
@@ -97,11 +109,13 @@ p {
   border-style: dotted solid;
   border-color:steelblue;
   box-sizing: border-box;
+  outline: thick ridge pink;
 } 
 
 .lower{
 	text-align:center;
 	box-sizing: border-box;
+	
 }
 
 
@@ -114,4 +128,7 @@ p {
 	padding: 5px;
 	color:white;
 	box-sizing: border-box;
+	outline-style: solid;
+	outline-color: invert;
+	outline-width: thick;
 }
