@@ -63,8 +63,7 @@ a:hover, a:active {
 	letter-spacing: 3px;
 	text-shadow: 2px 2px 6px white;
 	font-family: Arial, Helvetica, sans-serif;
-	margin-bottom: auto;
-}
+	margin-bottom: 30px;
 
 body {
   background-image: url('https://linkshortner.net/tnkzy');
@@ -152,6 +151,24 @@ p.sigma {
   outline: thick ridge pink;
   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 } 
+
+ul.a {
+	list-style-type: circle;
+	list-style-position: outside;
+	background: #3399ff;
+	padding: 20px;
+
+
+}
+ul li{
+	background: #ffe5e5;
+	  color: darkred;
+	  padding: 5px;
+	  margin-left: 35px;
+	  padding: 5px;
+
+
+}
 
 .lower{
 	text-align:center;
