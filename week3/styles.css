@@ -76,7 +76,7 @@ body {
     letter-spacing: 3px;
 	box-sizing: border-box;
 	outline: #4CAF50 solid 10px;
-	outline-offset: 15px;
+	/*outline-offset: 15px;*/
 	font-family: "Lucida Console", "Courier New", monospace;
 	font-size: 0.9em;
 }
