@@ -21,7 +21,7 @@ a:hover, a:active {
 .header {
 	text-align: center;
 	background:hsla(320, 78%, 80%, 0.8);  /*(234, 55, 126, 0.6);*/
-    padding: /*30px */calc(100% - 100px);
+    padding: 30px /*calc(100% - 100px)*/;
     letter-spacing: 3px;
 	box-sizing: border-box;
 	outline-style: outset;
@@ -56,7 +56,7 @@ a:hover, a:active {
 #nickname {
 	text-align: center;
 	font-size: 25px;
-	width: /*auto*/ max(50%, 300px);
+	width: auto /*max(50%, 300px)*/;
     background:#00FF7F99;
     padding: 50px;
     color: black;
@@ -271,3 +271,9 @@ div > p {
   background: url('img_navsprites_hover.gif') -91px -45px;
 }
 */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
