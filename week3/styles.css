@@ -9,7 +9,7 @@ a:link, a:visited {
 }
 
 * {
-  box-sizing: border-box;
+  box-sizing: border-box !important;
 }
 
 
@@ -21,7 +21,7 @@ a:hover, a:active {
 .header {
 	text-align: center;
 	background:hsla(320, 78%, 80%, 0.8);  /*(234, 55, 126, 0.6);*/
-    padding: 30px;
+    padding: /*30px */calc(100% - 100px);
     letter-spacing: 3px;
 	box-sizing: border-box;
 	outline-style: outset;
@@ -49,14 +49,14 @@ a:hover, a:active {
 	box-sizing: border-box;
 	position: absolute;
 	z-index:2;
-	float: left;
+	/*float: left;*/
     
 }
 
 #nickname {
 	text-align: center;
 	font-size: 25px;
-	width: auto;
+	width: /*auto*/ max(50%, 300px);
     background:#00FF7F99;
     padding: 50px;
     color: black;
@@ -71,7 +71,7 @@ a:hover, a:active {
 	text-shadow: 2px 2px 6px white;
 	font-family: Arial, Helvetica, sans-serif;
 	margin-bottom: 30px;
-	clear:left;
+	/*clear:left;*/
 }
 
 body {
@@ -80,6 +80,8 @@ body {
   background-attachment: fixed;
   background-size: cover;
   font-size: 100%;
+  counter-reset: section;
+  
 }
 /* I don't know what to do anymore*/
 #hw {
@@ -250,9 +252,12 @@ ul li{
 	outline-width: thick;
 }
 
+
+/*
 div > p {
   background-color: yellow;
 }
+
 
 #home a:hover {
   background: url('img_navsprites_hover.gif') 0 -45px;
@@ -265,3 +270,4 @@ div > p {
 #next a:hover {
   background: url('img_navsprites_hover.gif') -91px -45px;
 }
+*/
