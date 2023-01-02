@@ -73,6 +73,7 @@ a:hover, a:active {
 	font-family: Arial, Helvetica, sans-serif;
 	margin-bottom: 30px;
 	/*clear:left;*/
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 body {
@@ -102,6 +103,7 @@ body {
 	font-family: "Lucida Console", "Courier New", monospace;
 	font-size: 0.9em;
 	overflow:auto;
+	box-shadow: 5px 5px blue, 10px 10px red, 15px 15px green;
 	
 }
  /*
@@ -253,7 +255,11 @@ ul li{
 	outline-width: thick;
 }
 
-
+#grad1 {
+  height: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, red , yellow);
+}
 
 /*
 .dropbtn {
