@@ -48,7 +48,7 @@ a:hover, a:active {
     width: 50%;
 	max-width: 20%;
 	box-sizing: border-box;
-	position: absolute;
+	/*position: absolute;*/
 	/*z-index:2;*/
 	/*float: left;*/
     
