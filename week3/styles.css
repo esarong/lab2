@@ -101,7 +101,7 @@ body {
 	overflow:auto;
 	
 }
-
+ /*
 a[target="_blank"] {
   background-color: yellow;
 }
@@ -114,7 +114,7 @@ p::first-line {
   color: #ff0000;
   font-variant: small-caps;
 }
-
+*/
 	
 #bob  { 
     text-align: center;
@@ -252,4 +252,16 @@ ul li{
 
 div > p {
   background-color: yellow;
+}
+
+#home a:hover {
+  background: url('img_navsprites_hover.gif') 0 -45px;
+}
+
+#prev a:hover {
+  background: url('img_navsprites_hover.gif') -47px -45px;
+}
+
+#next a:hover {
+  background: url('img_navsprites_hover.gif') -91px -45px;
 }
