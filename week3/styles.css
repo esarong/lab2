@@ -73,7 +73,7 @@ a:hover, a:active {
 	font-family: Arial, Helvetica, sans-serif;
 	margin-bottom: 30px;
 	/*clear:left;*/
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	/*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
 }
 
 body {
@@ -103,7 +103,7 @@ body {
 	font-family: "Lucida Console", "Courier New", monospace;
 	font-size: 0.9em;
 	overflow:auto;
-	box-shadow: 5px 5px blue, 10px 10px red, 15px 15px green;
+	/*box-shadow: 5px 5px blue, 10px 10px red, 15px 15px green;*/
 	
 }
  /*
@@ -153,7 +153,7 @@ p {
 
 .random{
   background-color: tomato;
-  color: white;
+  color: var(--white);
   border: 2px solid yellow;
   margin: 5px;
   padding: 10px;
@@ -245,7 +245,7 @@ ul li{
 	text-align: center;
 	border-style: solid;
     border-color: white;
-	background-color: teal;
+	background-color: /*teal*/var(--blue);
 	border-width: 3px; 
 	padding: 5px;
 	color:white;
@@ -260,6 +260,14 @@ ul li{
   background-color: red; /* For browsers that do not support gradients */
   background-image: linear-gradient(to right, red , yellow);
 }
+
+:root {
+  --blue: #1e90ff;
+  --white: #ffffff;
+}
+
+
+
 
 /*
 .dropbtn {
