@@ -8,10 +8,11 @@ a:link, a:visited {
   display: inline-block;
 }
 
+/*
 * {
   box-sizing: border-box !important;
 }
-
+*/
 
 a:hover, a:active {
   background-color: green;
@@ -252,6 +253,9 @@ ul li{
 	outline-width: thick;
 }
 
+
+
+/*
 .dropbtn {
   background-color: #4CAF50;
   color: white;
@@ -314,7 +318,7 @@ div.desc {
 }
 
 
-/*
+
 div > p {
   background-color: yellow;
 }
