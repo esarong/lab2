@@ -27,3 +27,18 @@ function myFunction() {
   const myCar = new Car("Ford", 2014);
   document.getElementById("class").innerHTML =
   myCar.name + " " + myCar.year;
+
+  function myDisplayer(some) {
+    document.getElementById("callback").innerHTML = some;
+  }
+  
+  function myFirst() {
+    myDisplayer("Hello");
+  }
+  
+  function mySecond() {
+    myDisplayer("Goodbye");
+  }
+  
+  myFirst();
+  mySecond();
