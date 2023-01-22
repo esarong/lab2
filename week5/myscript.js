@@ -5,7 +5,7 @@ function myFunction() {
     document.getElementById("demo").innerHTML = "Paragraph changed.";
   }
 
-  
+
   let text = "";
   for (let i = 0; i < 10; i++) {
     if (i === 3) { break; }
@@ -13,3 +13,6 @@ function myFunction() {
   }
   
   document.getElementById("loop").innerHTML = text;
+
+  document.getElementById("random").innerHTML =
+  Math.floor(Math.random() * 10);
