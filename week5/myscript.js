@@ -42,3 +42,8 @@ function myFunction() {
   
   myFirst();
   mySecond();
+
+  
+  function goBack() {
+    window.history.back()
+  }
