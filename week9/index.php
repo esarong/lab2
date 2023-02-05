@@ -169,18 +169,33 @@ Any other interesting aspects of your life that you would like to share<br>
 
 
 <!--
+<<<<<<< HEAD
 <div id="grad1"></div>
+=======
+
+<div id="grad1"></div>
+
+
+>>>>>>> 32d8ff309daeafc5d03d9926cc3b3ce88a7569c2
 <div class="flex-container">
   <div>1</div>
   <div>2</div>
   <div>3</div>
 </div>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 32d8ff309daeafc5d03d9926cc3b3ce88a7569c2
 <ul>
   <li><a href="#home">Home</a></li>
   <li><a href="#news">News</a></li>
   <li><a href="#contact">Contact</a></li>
   <li><a href="#about">About</a></li>
 </ul>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 32d8ff309daeafc5d03d9926cc3b3ce88a7569c2
 <div class="dropdown">
   <button class="dropbtn">Dropdown</button>
   <div class="dropdown-content">
@@ -188,30 +203,51 @@ Any other interesting aspects of your life that you would like to share<br>
   <a href="#">Link 2</a>
   <a href="#">Link 3</a>
   </div>
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 32d8ff309daeafc5d03d9926cc3b3ce88a7569c2
 <div class="gallery">
   <a target="_blank" href="img_5terre.jpg">
     <img src="img_5terre.jpg" alt="Cinque Terre" width="600" height="400">
   </a>
   <div class="desc">Add a description of the image here</div>
 </div>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 32d8ff309daeafc5d03d9926cc3b3ce88a7569c2
 <div class="gallery">
   <a target="_blank" href="img_forest.jpg">
     <img src="img_forest.jpg" alt="Forest" width="600" height="400">
   </a>
   <div class="desc">Add a description of the image here</div>
 </div>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 32d8ff309daeafc5d03d9926cc3b3ce88a7569c2
 <div class="gallery">
   <a target="_blank" href="img_lights.jpg">
     <img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
   </a>
   <div class="desc">Add a description of the image here</div>
 </div>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 32d8ff309daeafc5d03d9926cc3b3ce88a7569c2
 <div class="gallery">
   <a target="_blank" href="img_mountains.jpg">
     <img src="img_mountains.jpg" alt="Mountains" width="600" height="400">
   </a>
   <div class="desc">Add a description of the image here</div>
 </div>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 32d8ff309daeafc5d03d9926cc3b3ce88a7569c2
 -->
 
 <div class="grid-container">
@@ -319,6 +355,7 @@ echo "<br>";
 echo $gender;
 ?>
 
+<<<<<<< HEAD
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST")
 {
@@ -347,11 +384,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 	$conn->close();
 }
 ?>
+=======
+>>>>>>> 32d8ff309daeafc5d03d9926cc3b3ce88a7569c2
 
 <div class = "footer">
 <p> All Rights Reserved 2022 &copy;</p>
 </div>
 
+<<<<<<< HEAD
 <script src="myscript.js"></script>
 </body>
 </html>
+=======
+<script src="myScript.js"></script>
+</body>
+</html>
+>>>>>>> 32d8ff309daeafc5d03d9926cc3b3ce88a7569c2

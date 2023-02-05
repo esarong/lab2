@@ -27,18 +27,7 @@
 
 <img src = "introduce.jpg" alt= "introduce picture" class = "intropic">
 
-<p id="loop"></p>
-<p id="random"></p>
-<p id="class"></p>
-<p id="callback"></p>
-<input type="button" value="Back" onclick="goBack()">
-
-
-
-document.getElementById("demo").innerHTML = text;
-<button onclick="window.print()">Print this page if you wants</button>
-
-
+<button onclick="window.print()">Print this page if you want</button>
 
 <h5 id = "nickname"> You can call me EMMAN!</h5>
 
@@ -73,9 +62,109 @@ Any other interesting aspects of your life that you would like to share<br>
 </div>
 
 
+<div id = 'bob'>
+<h1>Interest/Hobbies</h1>
+</div>
+
+<div class = "lower">
+<a href="https://linkshortner.net/SiRFp" title = "This is a playlist">Click this for music interest</a> <!-- lesson 1.4-->
+<p style= "color:green;"><i> Below is the profile pictures.</i></p>
+<img src="https://linkshortner.net/oLtOc" alt="Yuichiro pic" width="104" height="142">
+<div class ="random">
+<p> This is <br> another paragraph.</p>
+</div>
+
+<h5>Dream places </h5>
+<ul class ="a">
+  <li>Israel</li>
+  <li>Japan</li>
+  <li>Korea</li>
+</ul>
 
 
+<p class = "sigma"> &Sigma; male mentaliy </p>
+<!-- lesson 1.2-->
+<!-- lesson 1.3-->
+<h4 id="myHeader">Additional Section</h4>
+<h5>quotations</h5>
+<h6><em><q>Fix your eyes upon Jesus</q></em></h6>
 
+<h2>A Random Table</h2>
+<div style="overflow-x: auto;">
+<table id="company">
+  <tr>
+    <th>Company</th>
+    <th>Head</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Kyoto Animation</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Madhouse</td>
+    <td>Christina Berglund</td>
+    <td>Sweden</td>
+  </tr>
+  <tr>
+    <td>Mappa</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+  <tr>
+    <td>J.C. Staff>
+    <td>Roland Mendel</td>
+    <td>Austria</td>
+  </tr>
+  <tr>
+    <td>Wit Studio</td>
+    <td>Helen Bennett</td>
+    <td>UK</td>
+  </tr>
+  <tr>
+    <td>Cloverworks</td>
+    <td>Philip Cramer</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Toei Animation</td>
+    <td>Yoshi Tannamuri</td>
+    <td>Canada</td>
+  </tr>
+  <tr>
+    <td>Trigger</td>
+    <td>Giovanni Rovelli</td>
+    <td>Italy</td>
+  </tr>
+  <tr>
+    <td>Studio Ghibli</td>
+    <td>Jae Crowder</td>
+    <td>UK</td>
+  </tr>
+  <tr>
+    <td>Lerche</td>
+    <td>Marie Bertrand</td>
+    <td>France</td>
+  </tr>
+</table>
+</div>
+
+<p> This is a sample sentence</p>
+
+<div class ="random">
+<p> Text editor for HTML</p>
+</div>
+<img src="https://linkshortner.net/tnkzy" alt="Hyouka anime" style="width:60px">
+</div>
+
+<p> Below are icons that I am surprised. </p>
+<i class="fas fa-cloud" style="font-size:48px;color:red;"></i>
+<i class="fas fa-cloud" style="font-size:60px;color:lightblue;"></i>
+
+<p id="demo">A Paragraph.</p>
+
+<button type="button" onclick="myFunction()">Try it</button>
 
 
 
@@ -136,13 +225,22 @@ Any other interesting aspects of your life that you would like to share<br>
 
 -->
 
-
+<div class="grid-container">
+  <div class="grid-item">1</div>
+  <div class="grid-item">2</div>
+  <div class="grid-item">3</div>  
+  <div class="grid-item">4</div>
+  <div class="grid-item">5</div>
+  <div class="grid-item">6</div>  
+  <div class="grid-item">7</div>
+  <div class="grid-item">8</div>
+  <div class="grid-item">9</div>  
 </div>
 
 <div class = "footer">
 <p> All Rights Reserved 2022 &copy;</p>
 </div>
 
-<script src="myscript.js"></script>
+<script src="myScript.js"></script>
 </body>
 </html>
