@@ -361,7 +361,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 {
 
 	$servername = "localhost";
-	$username = "root";
+	$username = "localhost";
 	$password = "";
 	$dbname = "mydbwebprogmi211";
 
