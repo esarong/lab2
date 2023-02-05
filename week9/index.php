@@ -355,7 +355,7 @@ echo "<br>";
 echo $gender;
 ?>
 
-<<<<<<< HEAD
+
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST")
 {
@@ -384,19 +384,18 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 	$conn->close();
 }
 ?>
-=======
->>>>>>> 32d8ff309daeafc5d03d9926cc3b3ce88a7569c2
+
 
 <div class = "footer">
 <p> All Rights Reserved 2022 &copy;</p>
 </div>
 
-<<<<<<< HEAD
+
 <script src="myscript.js"></script>
 </body>
 </html>
-=======
+
 <script src="myScript.js"></script>
 </body>
 </html>
->>>>>>> 32d8ff309daeafc5d03d9926cc3b3ce88a7569c2
+
