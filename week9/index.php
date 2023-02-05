@@ -361,8 +361,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 {
 
 	$servername = "localhost";
-	$username = "localhost";
-	$password = "";
+	$username = "esarong";
+	$password = "esarong";
 	$dbname = "mydbwebprogmi211";
 
 	// Create connection
@@ -395,7 +395,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 </body>
 </html>
 
-<script src="myScript.js"></script>
+
 </body>
 </html>
 
