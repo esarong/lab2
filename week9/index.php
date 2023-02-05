@@ -362,7 +362,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 
 	$servername = "localhost";
 	$username = "esarong";
-	$password = "esarong";
+	$password = "";
 	$dbname = "mydbwebprogmi211";
 
 	// Create connection
