@@ -169,25 +169,7 @@ Any other interesting aspects of your life that you would like to share<br>
 
 
 <!--
-<<<<<<< HEAD
-<div id="grad1"></div>
-=======
-
-<div id="grad1"></div>
-
-
->>>>>>> 32d8ff309daeafc5d03d9926cc3b3ce88a7569c2
 <div class="flex-container">
-  <div>1</div>
-  <div>2</div>
-  <div>3</div>
-</div>
-<<<<<<< HEAD
-=======
-
->>>>>>> 32d8ff309daeafc5d03d9926cc3b3ce88a7569c2
-<ul>
-  <li><a href="#home">Home</a></li>
   <li><a href="#news">News</a></li>
   <li><a href="#contact">Contact</a></li>
   <li><a href="#about">About</a></li>
@@ -203,31 +185,18 @@ Any other interesting aspects of your life that you would like to share<br>
   <a href="#">Link 2</a>
   <a href="#">Link 3</a>
   </div>
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 32d8ff309daeafc5d03d9926cc3b3ce88a7569c2
 <div class="gallery">
   <a target="_blank" href="img_5terre.jpg">
     <img src="img_5terre.jpg" alt="Cinque Terre" width="600" height="400">
   </a>
   <div class="desc">Add a description of the image here</div>
 </div>
-<<<<<<< HEAD
-=======
-
->>>>>>> 32d8ff309daeafc5d03d9926cc3b3ce88a7569c2
 <div class="gallery">
   <a target="_blank" href="img_forest.jpg">
     <img src="img_forest.jpg" alt="Forest" width="600" height="400">
   </a>
   <div class="desc">Add a description of the image here</div>
 </div>
-<<<<<<< HEAD
-=======
-
->>>>>>> 32d8ff309daeafc5d03d9926cc3b3ce88a7569c2
 <div class="gallery">
   <a target="_blank" href="img_lights.jpg">
     <img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
@@ -244,10 +213,6 @@ Any other interesting aspects of your life that you would like to share<br>
   </a>
   <div class="desc">Add a description of the image here</div>
 </div>
-<<<<<<< HEAD
-=======
-
->>>>>>> 32d8ff309daeafc5d03d9926cc3b3ce88a7569c2
 -->
 
 <div class="grid-container">
@@ -360,9 +325,9 @@ echo $gender;
 if ($_SERVER["REQUEST_METHOD"] == "POST")
 {
 
-	$servername = "localhost";
-	$username = "root";
-	$password = "";
+	$servername = "http://apcwebprog.csf.ph/";
+	$username = "webprogmi211 ";
+	$password = "webprogmi211 ";
 	$dbname = "mydbwebprogmi211";
 
 	// Create connection
@@ -372,7 +337,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 	  die("Connection failed: " . $conn->connect_error);
 	}
 
-  $sql = "INSERT INTO MyGuests (name, email, website, comment, gender)
+  $sql = "INSERT INTO myguests (name, email, website, comment, gender)
 	VALUES ('$name', '$email', $website, '$comment', $gender)";
 
 	if ($conn->query($sql) === TRUE) {
