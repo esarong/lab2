@@ -23,7 +23,7 @@
   <a href="#about">About</a>
 
 </div>
-
+<!-- -->
 
 <img src = "introduce.jpg" alt= "introduce picture" class = "intropic">
 
