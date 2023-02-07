@@ -325,10 +325,10 @@ echo $gender;
 if ($_SERVER["REQUEST_METHOD"] == "POST")
 {
 
-	$servername = "http://apcwebprog.csf.ph/";
-	$username = "webprogmi211 ";
-	$password = "webprogmi211 ";
-	$dbname = "mydbwebprogmi211";
+	$servername = "localhost";
+	$username = "webprogmi211";
+	$password = "webprogmi211";
+	$dbname = "webprogmi211";
 
 	// Create connection
 	$conn = new mysqli($servername, $username, $password, $dbname);
