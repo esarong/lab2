@@ -337,6 +337,20 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 	  die("Connection failed: " . $conn->connect_error);
 	}
 
+  $sql = "CREATE TABLE esarong_myguests (
+    name VARCHAR(30) NOT NULL,
+    email VARCHAR(30) NOT NULL,
+    website VARCHAR(100),
+    comment TEXT,
+    gender VARCHAR(10) NOT NULL
+    )";
+
+  if ($conn->query($sql) === TRUE) {
+    echo "Table esarong_myguests created successfully";
+  } else {
+    echo "Error creating table: " . $conn->error;
+  } 
+
   $sql = "INSERT INTO esarong_myguests (name, email, website, comment, gender)
 	VALUES ('$name', '$email', $website, '$comment', $gender)";
 
