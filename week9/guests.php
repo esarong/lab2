@@ -17,7 +17,7 @@
 
 
 <?php
-$servername = "webprogmi211";
+$servername = "localhost";
 $username = "webprogmi211";
 $password = "webprogmi211";
 $dbname = "webprogmi211";
