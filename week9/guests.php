@@ -1,3 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>EC Sarong Page</title>
+ <link rel="stylesheet" href="styles.css">
+ <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
+<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+<meta name="confidential student" content="about">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://kit.fontawesome.com/5747fb50b1.js" crossorigin="anonymous"></script>
+<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> -->
+<link rel="icon" type="image/x-icon" href="/week5/favicon.ico">
+</head>
+<body>
+
+
 <?php
 $servername = "webprogmi211";
 $username = "webprogmi211";
@@ -25,3 +43,6 @@ if ($result->num_rows > 0) {
 
 $conn->close();
 ?>
+
+</body>
+</html>
