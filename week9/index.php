@@ -324,30 +324,28 @@ echo $gender;
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST")
 {
+  $servername = "localhost";
+  $username = "webprogmi211";
+  $password = "webprogmi211";
+  $dbname = "webprogmi211";
 
-	$servername = "localhost";
-	$username = "webprogmi211";
-	$password = "webprogmi211";
-	$dbname = "webprogmi211";
+  // Create connection
+  $conn = new mysqli($servername, $username, $password, $dbname);
+  // Check connection
+  if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+  }
 
-	// Create connection
-	$conn = new mysqli($servername, $username, $password, $dbname);
-	// Check connection
-	if ($conn->connect_error) {
-	  die("Connection failed: " . $conn->connect_error);
-	}
+  $sql = "INSERT INTO MyGuests (name, email, website, comment, gender)
+  VALUES ('$name', '$email', '$website','$comment', '$gender')";
 
+  if ($conn->query($sql) === TRUE) {
+    echo "New record created successfully";
+  } else {
+    echo "Error: " . $sql . "<br>" . $conn->error;
+  }
 
-  $sql = "INSERT INTO esarong_myguests (name, email, website, comment, gender)
-	VALUES ('$name', '$email', $website, '$comment', $gender)";
-
-	if ($conn->query($sql) === TRUE) {
-	  echo "New record created successfully";
-	} else {
-	  echo "Error: " . $sql . "<br>" . $conn->error;
-	}
-
-	$conn->close();
+  $conn->close();
 }
 ?>
 
