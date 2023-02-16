@@ -174,10 +174,6 @@ Any other interesting aspects of your life that you would like to share<br>
   <li><a href="#contact">Contact</a></li>
   <li><a href="#about">About</a></li>
 </ul>
-<<<<<<< HEAD
-=======
-
->>>>>>> 32d8ff309daeafc5d03d9926cc3b3ce88a7569c2
 <div class="dropdown">
   <button class="dropbtn">Dropdown</button>
   <div class="dropdown-content">
@@ -203,10 +199,6 @@ Any other interesting aspects of your life that you would like to share<br>
   </a>
   <div class="desc">Add a description of the image here</div>
 </div>
-<<<<<<< HEAD
-=======
-
->>>>>>> 32d8ff309daeafc5d03d9926cc3b3ce88a7569c2
 <div class="gallery">
   <a target="_blank" href="img_mountains.jpg">
     <img src="img_mountains.jpg" alt="Mountains" width="600" height="400">
@@ -323,32 +315,32 @@ echo $gender;
 
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST")
-{
+  {
+    $servername = "localhost";
+    $username = "webprogmi211";
+    $password = "webprogmi211";
+    $dbname = "webprogmi211";
 
-	$servername = "192.168.150.213";
-	$username = "webprogmi211";
-	$password = "j@zzyAngle30";
-	$dbname = "webprogmi211";
-
-	// Create connection
-	$conn = new mysqli($servername, $username, $password, $dbname);
-	// Check connection
-	if ($conn->connect_error) {
-	  die("Connection failed: " . $conn->connect_error);
-	}
+    
+    // Create connection
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    // Check connection
+    if ($conn->connect_error) {
+      die("Connection failed: " . $conn->connect_error);
+    }
 
 
-  $sql = "INSERT INTO esarong_myguests (name, email, website, comment, gender)
-	VALUES ('$name', '$email', $website, '$comment', $gender)";
+    $sql = "INSERT INTO esarong_myguests (name, email, website, comment, gender)
+    VALUES ('$name', '$email', '$website','$comment', '$gender')";
 
-	if ($conn->query($sql) === TRUE) {
-	  echo "New record created successfully";
-	} else {
-	  echo "Error: " . $sql . "<br>" . $conn->error;
-	}
+    if ($conn->query($sql) === TRUE) {
+      echo "New record created successfully";
+    } else {
+      echo "Error: " . $sql . "<br>" . $conn->error;
+    }
 
-	$conn->close();
-}
+    $conn->close();
+  }
 ?>
 
 
