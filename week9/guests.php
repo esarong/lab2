@@ -17,9 +17,9 @@
 
 
 <?php
-$servername = "localhost";
+$servername = "192.168.150.213";
 $username = "webprogmi211";
-$password = "webprogmi211";
+$password = "j@zzyAngle30";
 $dbname = "webprogmi211"; //
 
 // Create connection
